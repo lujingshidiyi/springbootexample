@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: prod
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/meal
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+#      create 重启后会删表新建 update 新建或更新
+    show-sql: true

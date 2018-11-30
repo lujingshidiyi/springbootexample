@@ -1,0 +1,12 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /sbe
+
+type: B
+count: 3
+content: "type:${type},count:${count}"
+
+meal:
+  type: C
+  count: 4
